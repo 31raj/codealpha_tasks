@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+
+nav{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Products */
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 250px;
+
+    padding: 20px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0px 0px 10px gray;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin: 10px 0;
+}
+
+.card p{
+    color: green;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card button{
+    background-color: black;
+    color: white;
+
+    border: none;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: orange;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+
+nav{
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 40px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Products */
+
+.products{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 250px;
+
+    padding: 20px;
+    border-radius: 10px;
+
+    text-align: center;
+
+    box-shadow: 0px 0px 10px gray;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin: 10px 0;
+}
+
+.card p{
+    color: green;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card button{
+    background-color: black;
+    color: white;
+
+    border: none;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: orange;
+}
+/* Product Details */
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 50px;
+
+    margin-top: 50px;
+    padding: 20px;
+
+    flex-wrap: wrap;
+}
+
+.details img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.info{
+    max-width: 400px;
+}
+
+.info h2{
+    margin-bottom: 20px;
+}
+
+.info p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.info h3{
+    color: green;
+    margin-bottom: 20px;
+}
+
+.info button{
+    background-color: black;
+    color: white;
+
+    border: none;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Cart Page */
+
+.cart{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.cart-item{
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px gray;
+}
+
+.cart-item img{
+    border-radius: 10px;
+}
+
+.cart-item button{
+    background-color: red;
+    color: white;
+
+    border: none;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+login-box{
+
+    background-color: white;
+
+    width: 350px;
+
+    margin: 80px auto;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0px 0px 10px gray;
+
+    text-align: center;
+
+}
+
+.login-box h2{
+
+    margin-bottom: 20px;
+
+}
+
+.login-box input{
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 15px;
+
+    border: 1px solid gray;
+
+    border-radius: 5px;
+
+}
+
+.login-box button{
+
+    background-color: black;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    margin-top: 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+}
